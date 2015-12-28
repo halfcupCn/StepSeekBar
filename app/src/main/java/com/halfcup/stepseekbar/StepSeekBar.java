@@ -16,11 +16,11 @@ import android.widget.SeekBar;
 public class StepSeekBar extends SeekBar {
     public static final String TAG = StepSeekBar.class.getSimpleName();
     //默认竖线宽度
-    private final float stepWidth = 2;
+    private final float stepWidth = 4;
     //步数，即间隔数，默认为5
     private int step = 5;
     //竖线高度，默认为1/4控件高度?或者固定高度?
-    private float stepHeight = 20;
+    private float stepHeight = 30;
     //在测量的时候获取实际控件的宽高
     private int parentMeasureWidth, parentMeasureHeight;
     //获取顶点位置 left,top & right,bottom
